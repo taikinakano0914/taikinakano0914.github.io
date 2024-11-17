@@ -2,14 +2,14 @@
 <head>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HWF3P81795"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y0QKCW65DL"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-  gtag('config', 'G-HWF3P81795');
-</script>
+    gtag('config', 'G-Y0QKCW65DL');
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -86,40 +86,35 @@
         <h2>Past Projects</h2>
         <h3>Data-Driven Feedback Dissipativity of Discrete–Time LTI Systems</h3>
         <h4>Student project, ETH Zürich (Supervisors: Andrea Martinelli, Andras Sasfi, Ahmed Aboudonia, John Lygeros)</h4>
-        <p>Dissipativity theory is a powerful framework that describes how a dynamical system stores and
-            exchanges energy over time. The problem of designing of a feedback controller that renders the
-            closed-loop system dissipative is referred to as feedback dissipativity problem. In recent years,
-            major eﬀorts have been devoted to the analysis and controller design of dynamical systems
-            whose equation is unknown but can be observed via input-state-output data. In this work,
-            we give data-driven suﬃcient conditions in terms of linear matrix inequalities for the feedback
-            dissipativity problem of discrete-time LTI systems. Moreover, we extend such conditions to
-            the case where (bounded) noise corrupts the system and, finally, we show how to employ our
-            techniques in the context of decentralized control.</p>
+        <p>
+            <em>Dissipativity theory</em> is a powerful framework that describes how a dynamical system stores and exchanges energy over time.
+            The problem of designing of a feedback controller that renders the closed-loop system dissipative is referred to as the <em>feedback dissipativity problem</em>.
+            In recent years, major eﬀorts have been devoted to the <em>data-driven</em> analysis and control design of dynamical systems.
+            Therefore, in this work, we give data-driven LMI conditions for the feedback dissipativity problem of discrete-time LTI systems.
+            Moreover, we extend such conditions to the case where bounded noise corrupts the system.
+            We also show how to employ our techniques in the context of decentralized control.
+        </p>
 
         <h3>Data-Driven Coverage Control</h3>
         <h4>Student project, ETH Zürich (Supervisors: Andrea Carron, Rahel Rickenbach, Anna Scampicchio, Melanie Zeilinger)</h4>
-        <p>In the field of coverage control, multi-robot systems are cooperatively deployed to optimally cover
-            a certain area based on a “density function,” which reflects the environmental demands. Especially,
-            when the environment is unknown, the density function is also unknown, and this problem has
-            been studied in the field of learning-based coverage control. One example is the coverage by ground
-            robots in an unknown polluted environment. Here, which areas are severely polluted and which
-            are not is a priori not known, and the ground robots are required to move around the area to both
-            gather information about the pollution and cover the area. In learning-based coverage control,
-            learning the density function is a straightforward and widely used method. However, it has several
-            shortcomings, including 1. indirect learning, 2. the necessity of an assumption of prior knowledge
-            for the density function, and 3. numerical problems. In this thesis, we propose two methods that
-            avoid learning the density function and directly compute the subsequent desired position, namely
-            the sampling-based method and the Bayesian optimization method. In the sampling-based method,
-            each agent goes to the subsequent desired position with a probabilistic perturbation added. In the
-            Bayesian optimization method, a cost function, which captures the performance of the coverage
-            task, is approximated, and the agents go to the minimizing position of the cost function. Both
-            methods are provided with theoretical guarantees, which ensure the asymptotic convergence to the
-            locally optimal configuration. Moreover, numerical simulations are given to show the effectiveness
-            of the methods. Furthermore, an outlook for future work is given.</p>
+        <p>
+            <em>Coverage control</em> aims at controlling multiple agents to a spatially optimal allocation with respect to a density function defined over the coverage area.
+            When the density function is unknown, agents must learn the environment as well as move to a good configuration simultaneously, and this problem has been tackled within the framework of <em>learning-based coverage control</em>.
+            Although most prior works take a two-step approach to deal with this problem by first learning the density function and then use the estimate to cover the area, we approach this problem from a different angle: we aim at directly learning the optimal configuration by skipping the estimation of the density function, which we call <em>data-driven coverage control</em>.
+            We propose two methods, namely the sampled-based method and the Bayesian optimization method.
+            It is shown that both methods asymptotically converge to the optimal allocation.
+            Numerical simulations are conducted to show the effectiveness of both methods.
+        </p>
 
         <h3>Optimality of "Stubborn Strategy" in Automated Negotiation</h3>
         <h4>Bachelor's thesis, University of Tokyo (Supervisor: Koji Tsumura)</h4>
-        <p>In this study, we deal with bilateral automatic negotiation and examine the fundamental properties of the optimal offer sequence under a new model. The space of offers and the value of utilities of both players are continuous and we consider a simplified situation in which both utility functions of the two players are affine. Then, we theoretically show that “stubborn negotiation strategy,” which is to stubbornly make a selfish proposal at the beginning of a negotiation process, and to make a compromise proposal toward the end of the negotiation, is reasonable in terms of optimality with respect to their utilities. We also quantify the stubbornness and discuss the relationship between the stubbornness and the parameters of the utility function.</p>
+        <p>
+            In this work, we deal with <em>bilateral automatic negotiation</em> and examine its fundamental properties.
+            First, we model the bilateral negotiation process as a repetitive stochastic process.
+            Then, under some assumptions, we show that the <em>stubborn negotiation strategy</em>, which is to stubbornly make a selfish proposal at the beginning of the negotiation process and to make a compromising proposal towards the end, is optimal with respect to the expected utility.
+            We also quantify the stubbornness and discuss the relationship between the stubbornness and the parameters of the utility function.
+            Numerical simulations are provided to show the validity of the analysis.
+        </p>
 
         <h2><a href="blog/index.html">Blog (日本語)</a></h2>
 
