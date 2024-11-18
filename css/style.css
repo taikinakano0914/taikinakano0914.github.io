@@ -70,6 +70,11 @@ a:active {
     color: #cdfeaa;
 }
 
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+
 .main-nav {
     display: flex;
     list-style: none;
@@ -88,7 +93,7 @@ a:active {
     padding: 0 30px;
 }
 
-.image-taikinakano {
+.image-midsize {
     width: 350px;
 }
 
