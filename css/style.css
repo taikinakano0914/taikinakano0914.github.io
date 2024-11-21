@@ -30,6 +30,10 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 } */
 
+p span {
+    font-size: inherit;
+  }
+
 /* p {
     border-style: groove;
     background-color:ghostwhite;
@@ -125,6 +129,10 @@ em {
     text-decoration:none !important;
 }
 
+.inline-container {
+    text-align: justify;
+}
+
 @media screen and (min-width: 960px) {
     body{
         max-width: 960px;
@@ -137,6 +145,14 @@ em {
         align-items: center; 
         grid-template-columns: 1fr 1fr;
         column-gap: 50px;
+    }
+
+    .project-container {
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 2fr 1fr;
+        column-gap: 50px;
+        text-align: justify;
     }
 }
 
@@ -152,6 +168,12 @@ em {
         grid-template-columns: 1fr 1fr;
         column-gap: 50px;
     }
+
+    .project-container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
 }
 
 
@@ -163,6 +185,12 @@ em {
     }
 
     .container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .project-container {
         display: flex;
         flex-flow: column;
         align-items: center;
