@@ -12,9 +12,10 @@
 } */
 
 * {
-    /* font-family:'Helvetica'; */
+    font-family:'Helvetica';
+    /* font-family: Arial, Helvetica, sans-serif; */
     /* font-family:Verdana,Geneva,sans-serif; */
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
    }
 
 
@@ -93,7 +94,7 @@ em {
     position: sticky;
     justify-content:  space-between;
     align-items: center;
-    height:60px;
+    height: 60px;
     padding: 0 30px;
 }
 
@@ -166,7 +167,7 @@ em {
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 50px;
+        column-gap: 30px;
     }
 
     .project-container {
@@ -175,8 +176,6 @@ em {
         align-items: center;
     }
 }
-
-
 
 @media screen and (max-width: 480px) {
     body{
