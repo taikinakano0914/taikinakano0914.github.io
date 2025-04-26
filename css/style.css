@@ -12,7 +12,8 @@
 } */
 
 * {
-    font-family:'Helvetica';
+    /* font-family:'Helvetica';*/
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
     /* font-family: Arial, Helvetica, sans-serif; */
     /* font-family:Verdana,Geneva,sans-serif; */
     /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
@@ -66,7 +67,7 @@ a:focus {
 }
 
 a:hover {
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
     background: #cdfeaa;
 }
 
